@@ -1,0 +1,33 @@
+@import './config';
+
+.contact {
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:
+        linear-gradient(to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.3)),
+        url('myId.jpg') center top;
+    background-size: cover;
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .text-secondary {
+        color: grayscale(black);
+        color: rgba($color: black, $alpha: 0.96);
+    }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praise Jah</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body id="grad">
+    <img class="my_img" src="me.jpg" alt="" title="Praise Jah" />
+    <div class="fullCard">
+      <p class="para">A Web Developer</p>
+      <p class="para">
+        <i class="fa fa-location-arrow"></i>
+        Who lives in Nigeria
+      </p>
+      <div id="links">
+        <a
+          href="https://facebook.com/pj.olotu?"
+          class="btn"
+          id="link-1"
+          target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          href="https://twitter.com/x86olioxx"
+          class="btn"
+          target="_blank"
+          id="link-2"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          href="https://github.com/praiseolotu"
+          class="btn"
+          target="_blank"
+          id="link-3"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <div id="info">
+        <a href="mailto:olioxxayo@gmail.com" target="_blank" class="info-btn"
+          ><i class="fas fa-envelope"></i> Message Me</a
+        >
+        <a
+          href="https://github.com/praiseolotu"
+          target="_blank"
+          class="info-btn"
+          ><i class="fas fa-arrow-circle-right"></i> Follow</a
+        >
+      </div>
+      <div id="my-projects">
+        <div id="centralize" class="info-btn">
+          <i class="fas fa-arrow-circle-right"></i> My Works
+        </div>
+      </div>
+    </div>
+    <div>
+      <span>Designed with <i class="fas fa-heart"></i> by Praise.</span>
+    </div>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $(".para").addClass("animated slideInRight bounce");
+      $("#link-1").addClass("animated slideInUp");
+      $("#link-2").addClass("animated slideInDown");
+      $("#link-3").addClass("animated slideInUp");
+      $("#link-4").addClass("animated slideInDown");
+    });
+  </script>
+  <script src="main.js"></script>
+</html>
