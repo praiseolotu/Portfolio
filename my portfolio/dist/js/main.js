@@ -1,8 +1,8 @@
-const menuButton = document.querySelector('.menu-button');
-const hamburger = document.querySelector('.menu-button__burger');
-const nav = document.querySelector('.nav');
-const menuNav = document.querySelector('.menu-nav');
-const navItems = document.querySelectorAll('.menu-nav__items');  
+const menuButton = document.querySelector(".menu-button");
+const hamburger = document.querySelector(".menu-button__burger");
+const nav = document.querySelector(".nav");
+const menuNav = document.querySelector(".menu-nav");
+const navItems = document.querySelectorAll(".menu-nav__items");  
 let showMenu = false;
 
 menuButton.addEventListener('click', toggleMenu);
