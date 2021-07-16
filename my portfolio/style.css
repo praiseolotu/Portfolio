@@ -199,7 +199,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 767px) {
   .fullCard {
     width: 88vw;
     height: 70vh;
@@ -224,7 +224,7 @@ a:hover {
   }
 }
 
-@media screen and (width: 540px) {
+/* @media screen and (width: 540px) {
   .my_img {
     margin-left: 54%;
     margin-bottom: -11%;
@@ -239,7 +239,7 @@ a:hover {
     margin-left: 42%;
     margin-bottom: -8%;
   }
-}
+} */
 
 @media screen and (min-width: 767px) {
   .my_img {

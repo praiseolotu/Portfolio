@@ -22,4 +22,16 @@
             font-weight: 700;
         }
     }
+
+    @media screen and (max-width: 650px) {
+        &_name {
+            font-size: 2.5rem;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+
+            &__last {
+                font-weight: 400;
+            }
+        }
+    }
 }

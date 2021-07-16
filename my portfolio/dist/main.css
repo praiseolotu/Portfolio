@@ -30,6 +30,17 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 650px) {
+  .home_name {
+    font-size: 2.5rem;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+  }
+  .home_name__last {
+    font-weight: 400;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
