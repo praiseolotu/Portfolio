@@ -199,7 +199,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 481px) {
   .fullCard {
     width: 88vw;
     height: 70vh;
@@ -221,6 +221,23 @@ a:hover {
   }
   #my-projects {
     margin-top: 15px;
+  }
+}
+
+@media screen and (width: 540px) {
+  .my_img {
+    margin-left: 54%;
+    margin-bottom: -11%;
+  }
+  span {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (width: 720px) {
+  .my_img {
+    margin-left: 42%;
+    margin-bottom: -8%;
   }
 }
 
