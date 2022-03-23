@@ -20,13 +20,13 @@
       from(rgba(39, 39, 39, 0.9)),
       to(rgba(39, 39, 39, 0.3))
     ),
-    url("myId.jpg") top;
+    url("dist/myId.jpg") top;
   background: linear-gradient(
       to right,
       rgba(39, 39, 39, 0.9),
       rgba(39, 39, 39, 0.3)
     ),
-    url("myId.jpg") top;
+    url("dist/myId.jpg") top;
   background-size: cover;
 }
 
@@ -232,13 +232,13 @@
       from(rgba(39, 39, 39, 0.9)),
       to(rgba(39, 39, 39, 0.3))
     ),
-    url("myId.jpg") center top;
+    url("dist/myId.jpg") center top;
   background: linear-gradient(
       to right,
       rgba(39, 39, 39, 0.9),
       rgba(39, 39, 39, 0.3)
     ),
-    url("myId.jpg") center top;
+    url("dist/myId.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,13 +337,13 @@
       from(rgba(39, 39, 39, 0.9)),
       to(rgba(39, 39, 39, 0.3))
     ),
-    url("myId.jpg") center top;
+    url("dist/myId.jpg") center top;
   background: linear-gradient(
       to right,
       rgba(39, 39, 39, 0.9),
       rgba(39, 39, 39, 0.3)
     ),
-    url("myId.jpg") center top;
+    url("dist/myId.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -489,13 +489,13 @@
       from(rgba(39, 39, 39, 0.9)),
       to(rgba(39, 39, 39, 0.3))
     ),
-    url("myId.jpg") center top;
+    url("dist/myId.jpg") center top;
   background: linear-gradient(
       to right,
       rgba(39, 39, 39, 0.9),
       rgba(39, 39, 39, 0.3)
     ),
-    url("myId.jpg") center top;
+    url("dist/myId.jpg") center top;
   background-size: cover;
 }
 
