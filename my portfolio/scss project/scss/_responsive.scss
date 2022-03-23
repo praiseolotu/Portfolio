@@ -1,73 +1,85 @@
-@import './config';
+@import "./config";
 
 @include media-md {
-    .menu-button {
-        visibility: hidden;
-    }
+  .menu-button {
+    visibility: hidden;
+  }
 
-    .nav {
-        visibility: visible;
+  .nav {
+    visibility: visible;
 
-        .menu-nav {
-            display: block;
-            transform: translateY(0);
-            height: 100%;
-            background: transparent;
-            text-align: right;
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      height: 100%;
+      background: transparent;
+      text-align: right;
 
+      &__items {
+        display: inline;
+        padding-right: 1.5rem;
+      }
 
-            &__items {
-                display: inline;
-                padding-right: 1.5rem;
-            }
-
-            &__link {
-                font-size: 1.5rem;
-            }
-        }
-    }
-
-    .about__bio {
+      &__link {
         font-size: 1.5rem;
+      }
+
+      &#now {
+        display: block;
+        transform: translateY(0);
+        height: 100%;
+        text-align: right;
+      }
+      &#noww {
+        display: block;
+        transform: translateY(0);
+        height: 100%;
+        text-align: right;
+      }
+    }
+  }
+
+  .about__bio {
+    font-size: 1.5rem;
+  }
+
+  .projects {
+    &-bio__img {
+      height: 40vh;
     }
 
-    .projects {
-        &-bio__img {
-            height: 40vh;
-        }
-
-        &-items {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        .text-secondary {
-            font-size: 3rem;
-        }
+    &-items {
+      grid-template-columns: repeat(2, 1fr);
     }
 
-    .contact {
-        &__list{
-            grid-template-columns: repeat(2,1fr);
-        }
+    .text-secondary {
+      font-size: 3rem;
     }
+  }
+
+  .contact {
+    &__list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 }
 
-@include media-lg{
-    .projects {
-        &-items {
-            grid-template-columns: repeat(3, 1fr);
-        }
+@include media-lg {
+  .projects {
+    &-items {
+      grid-template-columns: repeat(3, 1fr);
     }
+  }
 
-    .contact {
-        &__list{
-            grid-template-columns: repeat(3,1fr);
-        }
+  .contact {
+    &__list {
+      grid-template-columns: repeat(3, 1fr);
     }
+  }
 }
 
 @include media-xl {
-    .projects-bio__img {
-        height: 50vh;
-    }
+  .projects-bio__img {
+    height: 50vh;
+  }
 }
